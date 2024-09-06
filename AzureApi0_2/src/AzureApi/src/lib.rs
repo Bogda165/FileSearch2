@@ -21,7 +21,7 @@ impl MyRequest {
             client,
             headers,
             img: Vec::new(),
-            request_adress: "https://file-search-rust-paid.cognitiveservices.azure.com/computervision/imageanalysis:analyze?api-version=2024-02-01&features=".to_string() + args.join(",").as_str(),
+            request_adress: "end_point".to_string() + args.join(",").as_str(),
         }
     }
 
